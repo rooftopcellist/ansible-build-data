@@ -103,7 +103,7 @@ Major Changes
 infoblox.nios_modules
 ~~~~~~~~~~~~~~~~~~~~~
 
-- Feature for extra layer security , with `cert` and `key` parameters in playbooks for authenticating using certificate and key *.pem file absolute path `#154 <https://github.com/infobloxopen/infoblox-ansible/pull/154>`_
+- Feature for extra layer security , with ``cert`` and ``key`` parameters in playbooks for authenticating using certificate and key ``*.pem`` file absolute path `#154 <https://github.com/infobloxopen/infoblox-ansible/pull/154>`_
 - Fix to remove issue causing due to template attr in deleting network using Ansible module nios network `#147 <https://github.com/infobloxopen/infoblox-ansible/pull/147>`_
 
 Minor Changes
