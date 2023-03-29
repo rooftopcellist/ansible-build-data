@@ -21,7 +21,7 @@ on:
 jobs:
   build:
     name: 'Release Ansible community distribution'
-    runs-on: python:3.10  # Change to Fedora? or python:3.10? (was ubuntu-latest)
+    runs-on: ubuntu-latest  # Change to Fedora? or python:3.10? (was ubuntu-latest)
 
     steps:
       - name: Check out antsibull
