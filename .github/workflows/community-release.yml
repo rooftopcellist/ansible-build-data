@@ -1,4 +1,5 @@
 ---
+
 name: community-release.yml
 on:
   workflow_dispatch:
@@ -15,8 +16,6 @@ on:
         description: 'Are you sure? Set this to yes.'
         required: true
         default: 'no'
-
-
 
 jobs:
   build:
